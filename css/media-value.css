@@ -41,6 +41,9 @@
     #messages{
         display: none;
     }
+    .post-content img {
+    height: 80vh;
+}
     #posts{
         width: 100%;
         margin: 0px;
@@ -112,6 +115,9 @@
         width: 100%;
         margin: 0px;
     }
+    .post-content img {
+    height: 80vh;
+}
 
     .own-profile-picture-2 {
         width: 45px;
