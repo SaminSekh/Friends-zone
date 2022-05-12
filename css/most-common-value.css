@@ -96,12 +96,13 @@
     margin-top: -4px;
 }
 .post-bottom>ul{
+    width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 .post-bottom>ul>li{
-    padding: 10px 85px;
+    padding: 8px 60px;
     
 }
 .post-bottom>ul>li>a{
