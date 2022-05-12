@@ -41,7 +41,7 @@
     #messages{
         display: none;
     }
-    .post-content img {
+    .post-content img{
     height: 60vh;
 }
     #posts{
@@ -115,7 +115,7 @@
         width: 100%;
         margin: 0px;
     }
-    .post-content img {
+    .post-content img{
     height: 120vh;
 }
 
