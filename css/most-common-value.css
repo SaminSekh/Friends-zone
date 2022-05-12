@@ -1,0 +1,156 @@
+.own-profile-picture{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: url('../images/ag.jpeg');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.own-profile-picture-2{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: url('../images/ag.jpeg');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.post{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.post-top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.post-top>img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.post-top>span{
+    display: block;
+    width: 90%;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.post-top>p{
+    color: white;
+    margin-left: -513px;
+    margin-top: 20px;
+}
+.post-top-right>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.post-top-right>a:active{
+    background-color: aliceblue;
+}
+.post-top-right>a:focus{
+    transition: .8s;
+    background-color: rgb(83, 82, 82);
+}
+.post-top-down{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.post-content{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.post-content img{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+}
+.post-bottom{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: -4px;
+}
+.post-bottom>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.post-bottom>ul>li{
+    padding: 10px 85px;
+    
+}
+.post-bottom>ul>li>a{
+    color: white;
+    font-size: 20px;
+    
+}
+.post-bottom>ul>li ul{
+    margin: -60px 0px 0px -80px;
+    list-style: none;
+    display: none;
+    position: absolute;
+    
+}
+.post-bottom>ul>li:hover ul{
+    list-style: none;
+    display: flex;
+
+}
+.post-bottom>ul>li ul>li{
+    padding: 6px 20px;
+    background-color: #000;
+    color: white;
+    display: block;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.post-bottom>ul>li:hover{
+    border-radius: 20px;
+    background-color: blue;
+    transition: .5s;
+}
+.post-bottom>ul>li ul>li:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition: .5s;
+}
+.loading {
+    position: relative;
+    margin-left: 42%;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

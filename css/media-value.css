@@ -1,0 +1,185 @@
+@media screen and (max-device-width:400px){
+    #menu{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        position: relative;
+        background-color: rgb(13, 13, 13);
+    }
+    .own-profile-picture{
+        display: none;
+    }
+    #menu>ul{
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+        list-style: none;
+        background-color: rgb(0, 0, 0);
+    }
+    #menu>ul>li{
+        margin: 0px 0px;
+        padding: 10px 12px;
+    }
+    #menu>ul>li:nth-child(4){
+        display: none;
+    }
+    #menu>ul>li:nth-child(7){
+        display: none;
+    }
+    #menu>ul>li:hover{
+        background-color: rgb(58, 58, 58);
+        border-radius: 5px;
+    }
+    #menu>ul>li>a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    #features{
+        display: none;
+    }
+    #messages{
+        display: none;
+    }
+    #posts{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .own-profile-picture-2 {
+        width: 45px;
+        height: 45px;
+    }
+    #send-text-bottom>ul>li>a{
+        font-size: 12px;
+        padding: 0px 8px;
+    }
+
+    /* #send-text-bottom>ul>li span{
+        display: none;
+    } */
+    #send-text-bottom>ul{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #send-text-bottom>ul>li a{
+        padding: 0px 0px;
+        font-size: .8em;
+    }
+
+
+}
+
+
+@media  screen and (min-device-width:401px) and (max-device-width:768px) {
+    #menu{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        position: relative;
+        background-color: rgb(13, 13, 13);
+    }
+    .own-profile-picture{
+        display: none;
+    }
+    #menu>ul{
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        list-style: none;
+        background-color: rgb(0, 0, 0);
+    }
+    #menu>ul>li{
+        margin: 0px 0px;
+        padding: 10px 12px;
+    }
+    #menu>ul>li:hover{
+        background-color: rgb(58, 58, 58);
+        border-radius: 5px;
+    }
+    #menu>ul>li>a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+    #features{
+        display: none;
+    }
+    #messages{
+        display: none;
+    }
+    #posts{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .own-profile-picture-2 {
+        width: 45px;
+        height: 45px;
+    }
+    #send-text-bottom>ul>li>a{
+        font-size: 12px;
+        padding: 0px 8px;
+    }
+
+    /* #send-text-bottom>ul>li span{
+        display: none;
+    } */
+    #send-text-bottom>ul{
+        width: 100%;
+        justify-content: space-around;
+    }
+    #send-text-bottom>ul>li a{
+        padding: 0px 0px;
+        font-size: .8em;
+    }
+}
+
+@media screen and (min-device-width:769px) and (max-device-width:1024px){
+    #features{
+        width: 23%;
+    }
+    #features>ul>li>a {
+        font-size: 16px;
+    }
+    #messages{
+        width: 25%;
+        margin-left: 75%;
+    }
+    #messages>ul>li a {
+        font-size: 14px;
+    }
+    #send-text-bottom>ul{
+        width: 100%;
+        justify-content: space-around;
+    }
+    #send-text-bottom>ul>li a{
+        padding: 0px 0px;
+        font-size: .8em;
+    }
+    
+}
+
+@media screen and (min-device-width:1025px) and (max-device-width:1448px){
+    #send-text-bottom>ul{
+        width: 100%;
+        justify-content: space-around;
+    }
+    #send-text-bottom>ul>li a{
+        padding: 0px 0px;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-device-width:1449px) {
+    #menu>ul>li{
+        margin: 1px 1px;
+        padding: 10px 25px;
+    }
+    #features>h1 {
+        font-size: 28px;
+    }
+    #features>ul>li>a {
+        font-size: 24px;
+    }
+}
