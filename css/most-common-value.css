@@ -141,6 +141,9 @@
     cursor: pointer;
     transition: .5s;
 }
+.post-bottom>ul>li ul>li:nth-child(1){
+    margin-left: 25px;
+}
 .loading {
     position: relative;
     margin-left: 42%;
