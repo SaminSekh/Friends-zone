@@ -69,7 +69,16 @@
         padding: 0px 0px;
         font-size: .8em;
     }
-
+    .post-bottom>ul>li{
+        margin: 0px 13px;
+        padding: 9px 25px;
+    }
+    .post-bottom>ul>li ul>li{
+        padding: 50px 12px;
+    }
+    .post-bottom>ul>li ul>li:nth-child(1){
+        margin-left: 20px;
+    }
 
 }
 
