@@ -50,12 +50,12 @@ html{
     margin-top: 10px;
     color: white;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "apercu",sans-serif;
 }
 #features>h3{
     margin: 25px 0px 0px 13px;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: "apercu",sans-serif;
 
 }
 #features>ul{
@@ -131,7 +131,7 @@ button[type="post"]{
     outline: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "apercu",sans-serif;
     color: rgb(255, 255, 255);
     background-color: rgb(49, 49, 49);
     cursor: pointer;
@@ -219,7 +219,7 @@ button[type="post"]:focus{
     background-color: rgb(0, 0, 0);
 }
 #messages>ul>li a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "apercu",sans-serif;
     text-decoration: none;
     font-size: 16px;
     color: rgb(255, 255, 255);
