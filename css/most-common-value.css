@@ -42,7 +42,7 @@
     width: 90%;
     margin-left: 5px;
     color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "apercu",sans-serif;
 
 }
 .post-top>p{
@@ -73,13 +73,13 @@
     background-color: #000;
     color: white;
     padding: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "apercu",sans-serif;
 }
 .post-content{
     width: 100%;
     overflow: hidden;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "apercu",sans-serif;
 }
 .post-content img{
     width: 100%;
